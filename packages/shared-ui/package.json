@@ -1,0 +1,17 @@
+{
+  "name": "@repo/shared-ui",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "exports": {
+    ".": "./index.ts"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "react-hook-form": "^7.54.2"
+  }
+}
